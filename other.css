@@ -4,7 +4,8 @@ background: black;
 display: flex;
 justify-content: center;
 padding-top: 15vw;
-}
+z-index: 1000;
+animation: scanline 8s linear infinite;}
 .card, .content-container {
 background-color: transparent !important;
 color: black !important;
@@ -17,17 +18,6 @@ text-align: justify;
 .flex .flex-col {
 display: none;
 }
-body {
-background: #0a0a0a;color: #e0e0e0;font-family: 'Courier Prime', monospace;overflow-x: hidden;position: relative;line-height: 1.6;}
-body::before {
-content: '';
-position: fixed;top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background: repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) 1px, transparent 1px, transparent 2px); pointer-events: none;
-z-index: 1000;
-animation: scanline 8s linear infinite;}
 body::after {
 content: '';
 position: fixed;
