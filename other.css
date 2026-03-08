@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Special+Elite&display=swap');}
 body {
+background: black;
+display: flex;
+justify-content: center;
+padding-top: 15vw;
+}
+.card, .content-container {
+background-color: transparent !important;
+color: black !important;
+margin-right: auto !important;
+margin-left: auto !important;
+position: relative;
+justify-content: center;
+text-align: justify;
+}
+.flex .flex-col {
+display: none;
+}
+body {
 background: #0a0a0a;color: #e0e0e0;font-family: 'Courier Prime', monospace;overflow-x: hidden;position: relative;line-height: 1.6;}
 body::before {
 content: '';
